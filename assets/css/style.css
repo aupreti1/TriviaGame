@@ -49,36 +49,36 @@ p{
 }
 
 #game-play {
-    background-color: white;
+    background-color: #bac7e3;
     opacity: 80%;
 }
 
 #timer {
     font-size: 20px;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #8c4080;
     padding: 2px;
-    font-family: Righteous,cursive;
+    font-family: cursive;
     
 }
 #currentQuestion {
     font-size: 20px;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #8c4080;
 }
 .question {
     padding-top: 5%;
     font-size: 25px;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #8c4080;
     font-family: cursive;
 }
 .answerList{
     font-size: 30px;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #8c4080;
 }
 
 #correctedAnswer {
     font-size: 20px;
     background-color: #00ccb2;
-    font-family: Righteous,cursive;
+    font-family: cursive;
 }
 #message {
     font-family: cursive;
@@ -103,8 +103,8 @@ p{
 #startAgainBtn {
     font-size: 40px;
     border: solid 5px #00ccb2;
-    background-color: darkred;
-    font-family: Righteous,cursive;
+    background-color: #639cff;
+    font-family: cursive;
     margin-top: 10px;
 }
 
@@ -116,7 +116,7 @@ p{
     
 .thisChoice:hover{
     background-color: #00ccb2;
-    color: brown;
+    color: #470f85;
     padding: 5px;
 }
 

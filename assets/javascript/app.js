@@ -223,6 +223,88 @@ $(document).ready(function () {
         startGame();
     });
 
+    var img = document.createElement("img");
+    
+    function img() {
+        if (randomWord === words[0]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office1.gif";
+        }
+        
+        else if (randomWord === words[1]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office2.gif";
+        }
+        
+        else if (randomWord === words[2]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office3.gif";
+        }
+        
+        else if (randomWord === words[3]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office4.gif";
+        }
+        
+        else if (randomWord === words[4]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office5.gif";
+        }
+        
+        else if (randomWord === words[5]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office6.gif";
+        }
+        
+        else if (randomWord === words[6]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office7.gif";
+        }
+        else if (randomWord === words[7]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office1.gif";
+        }
+        else if (randomWord === words[8]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office2.gif";
+        }
+        else if (randomWord === words[9]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/.gif";
+        }
+        else if (randomWord === words[10]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office4.gif";
+        }
+        else if (randomWord === words[11]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office5.gif";
+        }
+        else if (randomWord === words[12]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office6.gif";
+        }
+        else if (randomWord === words[13]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office7.gif";
+        }
+        else if (randomWord === words[14]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office1.gif";
+        }
+        else if (randomWord === words[15]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office2.gif";
+        }
+        else if (randomWord === words[16]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office3.gif";
+        }
+        else if (randomWord === words[17]) {
+            office.play();
+            document.getElementById("image").src = "./assets/images/office4.gif";
+        }
+
 });
 
 
