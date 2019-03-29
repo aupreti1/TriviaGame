@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-size: 100%;
+}
+
+.container {
+ 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img {
+    position: relative;
+}
+
+#startBtn {
+font-size: 50px;
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: 'Righteous', cursive;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+h1{
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #00ccb2;
+}
+p{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#game-play {
+    background-color: white;
+    opacity: 80%;
+}
+
+#timer {
+    font-size: 20px;
+    border-bottom: 2px solid purple;
+    padding: 2px;
+    font-family: Righteous,cursive;
+    
+}
+#currentQuestion {
+    font-size: 20px;
+    border-bottom: 2px solid purple;
+}
+.question {
+    padding-top: 5%;
+    font-size: 25px;
+    border-bottom: 2px solid purple;
+    font-family: cursive;
+}
+.answerList{
+    font-size: 30px;
+    border-bottom: 2px solid purple;
+}
+
+#correctedAnswer {
+    font-size: 20px;
+    background-color: #00ccb2;
+    font-family: Righteous,cursive;
+}
+#message {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#finalMessage {
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+#correctAnswers {
+    font-size: 20px;
+}
+#wrongAnswers{
+    font-size: 20px;
+}
+#unanswered {
+    font-size: 20px;
+}
+
+#startAgainBtn {
+    font-size: 40px;
+    border: solid 5px #00ccb2;
+    background-color: darkred;
+    font-family: Righteous,cursive;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 80%;
+		size: 200%;
+    }}
+    
+.thisChoice:hover{
+    background-color: #00ccb2;
+    color: brown;
+    padding: 5px;
+}
+

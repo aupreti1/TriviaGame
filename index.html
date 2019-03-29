@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+
+<body background="./assets/images/background.jpg">
+    <div class='container'>
+        <div class="back">
+
+            <button class='hvr-grow' id='startBtn'>Start Game</button>
+        </div>
+       
+        <div id="game-play">
+
+            <div id="timer"></div>
+
+            <div id="currentQuestion"></div>
+
+            <div class="question"></div>
+
+            <div class="answerList"></div>
+
+
+            <div id="finalMessage"></div>
+
+            <div id="correctAnswers"></div>
+
+            <div id="wrongAnswers"></div>
+
+            <div id="unanswered"></div>
+
+            <div button class="hvr-grow" id="startAgainBtn">Try Again</div>
+
+            <div id="message">
+                <h1>Instructions:</h1>
+                <p>You have 10 seconds to answer each question!</p>
+            </div>
+
+            <div id="correctedAnswer"></div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
