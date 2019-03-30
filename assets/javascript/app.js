@@ -5,86 +5,103 @@ $(document).ready(function () {
         question: "How can you tell the age of a shark?",
         answerList: ["Rings on vertebre", "Size", "Blood test", "Size of fins"],
         answer: 0,
+        image: "./assets/images/open.gif"
     }, {
         //Question Two:
         question: "What is the fastest shark?",
         answerList: ["Great White", "Mako", "Nurse", "Tiger"],
-        answer: 1
+        answer: 1,
+        image: "./assets/images/mako.gif"
     }, {
         //Question Three:
         question: "Which shark does not need salt water to survive?",
         answerList: ["Whale & Bull", "Reef & Tiger", "Tiger & River", "Bull & River"],
-        answer: 3
+        answer: 3,
+        image: "./assets/images/bull.gif"
     }, {
         //Question Four:
         question: "Which kind of shark is most likely to be found in a large group?",
         answerList: ["Great White", "Hammerhead", "Reef", "River"],
-        answer: 1
+        answer: 1,
+        image: "./assets/images/hammerhead.gif"
     }, {
         //Question Five:
         question: "What is the biggest shark?",
         answerList: ["Whale", "Great White", "Tiger", "Frilled"],
-        answer: 0
+        answer: 0,
+        image: "./assets/images/whaleshark.gif"
     }, {
         //Question Six: 
         question: "How many species of sharks are known?",
         answerList: ["300", "1050", "440", "560"],
-        answer: 2
+        answer: 2,
+        image: "./assets/images/nurse.gif"
     }, {
         //Question Seven: 
         question: "How old is the oldest shark fossile to be found?",
         answerList: ["234 million", "55 million", "765 million", "409 million"],
-        answer: 3
+        answer: 3,
+        image: "./assets/images/fossil.jpg"
     }, {
         //Question Eight: 
         question: "Which shark has been found in the deepest water?",
         answerList: ["Portuguese", "Bull", "Cookie Cutter", "Great White"],
-        answer: 0
+        answer: 0,
+        image: "./assets/images/potuguese.jpg"
     }, {
         //Question Nine: 
         question: "Other than sight, smell, taste, touch and hearing, what can sharks also sense?",
         answerList: ["Proprioception", "Heat", "Electricity", "Sonar"],
-        answer: 2
+        answer: 2,
+        image: "./assets/images/senses.gif"
     }, {
         //Question Ten: 
         question: "What cleaning compound can be found in shark teeth?",
         answerList: ["Fluoride", "Pine", "Beach", "Borax"],
-        answer: 0
+        answer: 0,
+        image: "./assets/images/sharktooth.jpg"
     }, {
         //Question Eleven: 
         question: "What do sharks have as structure instead of bones?",
         answerList: ["Silk", "Cartilage", "Epithelial", "Cuboidal"],
-        answer: 1
+        answer: 1,
+        image: "./assets/images/tissue.gif"
     }, {
         //Question Twelve: 
         question: "What kind of scales do sharks have?",
         answerList: ["Cosmoid", "Cycloid", "Ganoid", "Placoid"],
-        answer: 3
+        answer: 3,
+        image: "./assets/images/scales.gif"
     }, {
         //Question Thirteen: 
         question: "What shark was the largest predator ever lived?",
         answerList: ["Great White", "Megalodon", "Whale", "Bull"],
-        answer: 1
+        answer: 1,
+        image: "./assets/images/megalodon.gif"
     }, {
         //Question Fourteen: 
         question: "Closest relatives to sharks?",
         answerList: ["Dolphins", "Jelly Fish", "Whales", "Skates & Rays"],
-        answer: 3
+        answer: 3,
+        image: "./assets/images/ray.gif"
     }, {
         //Question Fifteen: 
         question: "What is this sharks name?",
         answerList: ["Cookie Cutter", "Black tip", "Frilled", "Tiger"],
-        answer: 0
+        answer: 0,
+        image: "./assets/images/cookiecutter.jpg"
     }, {
         //Question Sixteen: 
         question: "How many rows of teeth do Great Whites usually have?",
         answerList: ["3-4", "1-2", "4-5", "2-3"],
-        answer: 3
+        answer: 3,
+        image: "./assets/images/rows.jpg"
     }, {
         //Question Seventeen: 
         question: "What is it called when a shark jumps out of the water?",
         answerList: ["Diving", "Jumping", "Breaching", "Sailing"],
-        answer: 2
+        answer: 2,
+        image: "./assets/images/breaching.gif"
     }]
 
     
@@ -144,6 +161,11 @@ $(document).ready(function () {
         $('#message').empty();
         $('#correctedAnswer').empty();
         answered = true;
+        var img = $('<img id="sharkimg">');
+        $("img").hide();
+        img.attr("src", Questions[currentQuestion].image);
+        img.appendTo("#image");
+
 
         $('#currentQuestion').html('Question #' + (currentQuestion + 1) + '/' + Questions.length);
         $('.question').html('<h2>' + Questions[currentQuestion].question + '</h2>');

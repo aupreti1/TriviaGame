@@ -12,13 +12,15 @@ body{
 
 img {
     position: relative;
+    height: 250px;
+    width: 300px;
 }
 
 #startBtn {
 font-size: 50px;
 margin-top: 5%;
 margin-bottom: 5%;
-font-family: 'Righteous', cursive;
+font-family: 'Bangers', cursive;
 }
 
 .hvr-grow {
@@ -38,7 +40,7 @@ font-family: 'Righteous', cursive;
 }
 
 h1{
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #00ccb2;
@@ -57,7 +59,7 @@ p{
     font-size: 20px;
     border-bottom: 2px solid #8c4080;
     padding: 2px;
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
     
 }
 #currentQuestion {
@@ -68,26 +70,27 @@ p{
     padding-top: 5%;
     font-size: 25px;
     border-bottom: 2px solid #8c4080;
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
 }
 .answerList{
     font-size: 30px;
     border-bottom: 2px solid #8c4080;
+    font-family: 'Bangers', cursive;
 }
 
 #correctedAnswer {
     font-size: 20px;
     background-color: #00ccb2;
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
 }
 #message {
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
     font-size: 30px;
 }
 
 #finalMessage {
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
     margin-bottom: 10px;
 }
 #correctAnswers {
@@ -104,7 +107,7 @@ p{
     font-size: 40px;
     border: solid 5px #00ccb2;
     background-color: #639cff;
-    font-family: cursive;
+    font-family: 'Bangers', cursive;
     margin-top: 10px;
 }
 
