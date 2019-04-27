@@ -132,7 +132,7 @@ $(document).ready(function () {
     
         currentQuestion = 0;
         correctChoices = 0;
-        WrongChoices = 0;
+        wrongChoices = 0;
         unanswered = 0;
        
         newQuestion()
